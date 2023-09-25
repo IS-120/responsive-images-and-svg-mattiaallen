@@ -29,6 +29,15 @@
             <h2>Welcome to my shoddy art site!</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue mauris augue neque gravida in fermentum. Eu non diam phasellus vestibulum lorem sed. Eu turpis egestas pretium aenean. Id consectetur purus ut faucibus pulvinar elementum integer enim. Sed cras ornare arcu dui. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Metus vulputate eu scelerisque felis imperdiet. Urna cursus eget nunc scelerisque viverra mauris in. Ipsum dolor sit amet whale consectetur adipiscing elit duis. Orci ac auctor augue mauris augue neque gravida. Lacus viverra vitae congue eu. Porttitor eget dolor morbi non. Risus viverra adipiscing at in tellus integer feugiat scelerisque varius. At consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim suspendisse in est ante in nibh mauris cursus. Aliquet eget sit amet tellus cras adipiscing enim eu turpis. Lacinia quis vel eros donec ac odio tempor orci.</p>
             <p>Varius vel pharetra vel turpis nunc eget lorem dolor. Eleifend donec pretium vulputate sapien. Placerat orci nulla pellentesque dignissim enim sit. Placerat duis ultricies lacus sed turpis. Sagittis vitae et leo duis. Proin fermentum leo vel orci porta non pulvinar. Dignissim convallis aenean et tortor at risus viverra adipiscing. Placerat vestibulum lectus mauris ultrices. </p>
+           <!-- <svg
+                viewBox= "0 0 24 24"
+                width="64"
+                height="64">
+                <line x1="0" y1="4.2" x2="24" y2="4.2" />
+            </svg> FAILED ATTEMPTED AT SVG-->
+            <svg>
+                <use href="#smoll-svg"/>
+          </svg>
         </article>
         <article>
             <h2>Modern Problems…</h2>
@@ -56,16 +65,20 @@
       </figure>
       <img src="images/regal-head-svg.svg" alt="Portrait of a female Regal Copper">
       <figcaption>this is my SVG img tag</figcaption>
-     <!-- <svg>
-        <use href="#psyduck"/>
-      </svg>
-
-     <svg>
-        <symbol id="psyduck" viewBox="0 0 64 64">-->
-    
+ 
+   
     </article>
     <footer>
         <p>footer</p>
     </footer>
+    <svg>
+       <symbol id="smoll-svg" viewBox="0 0 24 24" height="64" width="64">
+        <!-- <line x1="0" y1="5" x2="24" y2="20" 
+        stroke="#3E547E" fill="transparent" stroke-width="5"></line> -->
+        <polyline points="7 7, 20 14, 5 20,"
+        stroke="#3E547E" fill="transparent" stroke-width="2"></polyline>
+        <polyline points="5 5, 10 16, 16 3,"
+        stroke="#3E547E" fill="transparent" stroke-width="2"></polyline>
+    </svg>
 </body>
 </html>
