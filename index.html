@@ -1,5 +1,5 @@
-<!--this is a copy from my first assiment-->
 <!DOCTYPE html>
+<!--this is a copy from my first assiment-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
 </head>
 <body>
    <h1>This is Mattia's first website</h1>
-    <p>Woah I didn't realize that I should have been making a serious page this whole time! Ahahah this is my first webside and I'm still figuering things out!
+    <p>Woah I didn't realize that I should have been making a serious page this whole time! Ahahah this is my first webside and I'm still figuering things out!</p>
     <header>
         <nav>
             <ul>
@@ -55,15 +55,14 @@
             height="900" width="720">
             <figcaption>Bel, a large red dragon</figcaption> <!-- Figuers do not HAVE to be in artical tags-->
         </figure>
-       <figure>
+  
         <picture>
         <source media="(max-width: 499px)" srcset="images/iski-on-gold-200px.jpg"/>
         <source media="(max-width: 899px)" srcset="images/iski-on-gold-500px.jpg" />
         <source media="(min-width: 900px)" srcset="images/iski-on-gold-900px.jpg" />
         <img src="images/iski-on-gold-900px.jpg" alt="Iskierka laying in a heap on a gold background" />
-        <figcaption>this is my picture tag</figcaption>
-        </picture>
-      </figure>
+        </picture> <!-- i don't want hight wasn with in side a picture in a figure-->
+   
       <img src="images/regal-head-svg.svg" alt="Portrait of a female Regal Copper">
       <figcaption>this is my SVG img tag</figcaption>
  
@@ -75,11 +74,12 @@
     <svg>
        <symbol id="smoll-svg" viewBox="0 0 24 24" height="64" width="64">
         <!-- <line x1="0" y1="5" x2="24" y2="20" 
-        stroke="#3E547E" fill="transparent" stroke-width="5"></line> -->
+        stroke="#3E547E" fill="transparent" stroke-width="5"></line> this is the longer hand for a single line -->
         <polyline points="7 7, 20 14, 5 20,"
         stroke="#3E547E" fill="transparent" stroke-width="2"></polyline>
         <polyline points="5 5, 10 16, 16 3,"
         stroke="#3E547E" fill="transparent" stroke-width="2"></polyline>
+       </symbol>
     </svg>
 </body>
 </html>
